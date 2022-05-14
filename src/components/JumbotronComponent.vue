@@ -28,7 +28,7 @@ export default {
 
 <style lang="scss" scoped>
 .bg_jumbo{
-    background-image: url(http://localhost:8080/img/slider-1-bg.96494377.jpg);
+    background-image: url(@/assets/img/slider-1-bg.jpg);
     background-repeat: no-repeat;
     height: 800px;
     background-size: cover;
