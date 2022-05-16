@@ -7,7 +7,7 @@
             <div class="event_comunication py-2">
                 <span>23-26 MAY 2019</span>
                 <span>/</span>
-                <span>SANS FRANCISO</span>
+                <span class="span_fontSize">SANS FRANCISO</span>
                 <span>/</span>
                 <span>8 SPEAKERS</span>
             </div>
@@ -34,12 +34,15 @@ export default {
     background-size: cover;
     background-position: center;
 }.container{
+    h1{
+        font-size: 55px;
+    }
     h1,h2{
         color: white;
-        font-size: 80px;
     }
     h2{
         font-weight: 900;
+        font-size: 85px;
     }
     .event_comunication{
         span{
@@ -52,6 +55,9 @@ export default {
         background-color: $scarlet;
         border-color: $scarlet;
         font-weight: 600;
+    }
+    .span_fontSize{
+        font-size: 17px;
     }
 }
 </style>

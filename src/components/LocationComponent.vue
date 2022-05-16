@@ -1,13 +1,13 @@
 <template>
   <div class="bg_image d-flex flex-column align-items-center justify-content-center">
-      <h2>LOCATION</h2>
-      <h3 class="mt-5">GD BUILDING, GRAND CONFERENCE ROOM</h3>
+      <h3>LOCATION</h3>
+      <h4 class="mt-4">GD BUILDING, GRAND CONFERENCE ROOM</h4>
       <div class="d-flex justify-content-center">
             <font-awesome-icon icon="fa-solid fa-location-arrow" class="color_icon" />
             <p>11 GD Building, River Mall, New York, USA 8879</p>
       </div>
       <p class="color_text">Check For Accommodations Here</p>
-      <img src="@/assets/img/1-item-2.jpg" alt="">
+      <img class="mb-2 mt-3" src="@/assets/img/1-item-2.jpg" alt="">
       <div class="d-flex justify-content-center">
           <font-awesome-icon icon="fa-solid fa-phone" />
           <p class="ms-3">+1-112-222-3344</p>
@@ -32,10 +32,21 @@ export default {
     .color_icon{
         color: white;
         font-size: 20px;
+        margin-right: 16px;
     }
     .color_text{
         color: red;
     }
-    
+    h3{
+        font-size: 37px;
+        font-weight: 600;
+    }
+    h4{
+        font-weight: 600;
+        font-size: 24px;
+    }
+    p{
+        font-size: 15px;
+    }
 }
 </style>

@@ -49,14 +49,19 @@ export default {
 .col{
     p{
         color: $cloud;
+        font-size: 13px;
     }
     .italic{
         color: $froly;
-        font-weight: 600;
+        font-size: 15px;
     }
 }
 .color_icon{
     color: $cloud;
     font-size: 30px;
+}
+h3{
+    font-size: 14px;
+    font-weight: 600;
 }
 </style>

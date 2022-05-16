@@ -23,6 +23,12 @@ export default {
         padding-bottom: 10px;
     }
 }
+
+.ancor_tag li a:hover{
+    border-bottom: 3px solid $lightVibrant;
+    padding-bottom: 10px;
+    color: $scarlet;
+}
 .ancor_tag{
     li{
         list-style: none; 
@@ -33,6 +39,8 @@ export default {
         color: $gray;
         font-weight: bold;
         border-bottom: 1px solid transparent;
+        font-size: 13px;
+        padding: 0 20px;
     }
 }
 

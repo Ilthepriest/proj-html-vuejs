@@ -3,7 +3,7 @@
       <div class="container py-5">
           <div class="row row-cols-3 py-4 color_text">
               <div class="col-3">
-                  <h2>PROGRAM</h2>
+                  <h3>PROGRAM</h3>
               </div>
               <div class="col-6 text-star">
                   <p>This conference run trought all 4 days from 23-26 May 2016.</p>
@@ -49,7 +49,7 @@
           </div>
           <div class="row row.cols-2 bg_color color_text p-5">
               <div class="col">
-                  <div class="d-flex flex-column">
+                  <div class="d-flex flex-column orariDestinazioni">
                       <div class="d-flex">
                             <font-awesome-icon icon="fa-solid fa-clock" class="bg_icon" />
                             <p class="ms-4">09:00-10:30</p>
@@ -65,7 +65,7 @@
                   </div>
               </div>
               <div class="col-9 introduction">
-                  <h3>WELCOMING AND INTRODUCTION</h3>
+                  <h5>WELCOMING AND INTRODUCTION</h5>
                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At debitis totam quas similique culpa cumque, eos, sunt suscipit itaque, quod ad. Doloremque quam placeat saepe enim minus cupiditate nostrum distinctio, in voluptate provident odio voluptates. Sapiente, tempore sunt?</p>
                   <img src="@/assets/img/speaker-8-150x150.jpg" alt="">
               </div>
@@ -87,11 +87,12 @@ export default {
     border-right: 1px solid $muted;
    p{
         color: white;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 600;
     }
     div{
         color: white;
+        font-size: 13px;
     }
 }
 .active{
@@ -105,15 +106,19 @@ export default {
         width: 70px;
         border-radius: 10px;
     }
+    p{
+        font-size: 13px !important;
+    }
 }
 .color_text{
     p{
         color: $gray;
+        font-size: 14px;
     }
 }
 .italic{
     color: $froly;
-    font-weight: 600;
+    font-size: 15px;
 }
 #color_froly{
     color: $froly;
@@ -121,5 +126,17 @@ export default {
 .bg_icon{
     color: $gray;
     font-size: 20px;
+}
+h3{
+    font-size: 36px;
+    font-weight: 600;
+}
+h5{ 
+    font-size: 22px;
+}
+.orariDestinazioni{
+    p{
+        font-size: 12px;
+    }
 }
 </style>

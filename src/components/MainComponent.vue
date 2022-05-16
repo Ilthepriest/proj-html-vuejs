@@ -8,6 +8,9 @@
         <SiteMap />
         <SiteLocation />
         <SiteNews />
+        <SiteTickets />
+        <SiteVimeo />
+        <SiteSponsor />
   </main>
 </template>
 
@@ -20,6 +23,9 @@ import SiteProgram from '@/components/ProgramComponent.vue'
 import SiteMap from '@/components/MapComponent.vue'
 import SiteLocation from '@/components/LocationComponent.vue'
 import SiteNews from '@/components/RecentNewsComponent.vue'
+import SiteTickets from '@/components/TicketsComponent.vue'
+import SiteVimeo from '@/components/VimeoComponent.vue'
+import SiteSponsor from '@/components/SponsorComponent.vue'
 export default {
     name: 'SiteMain',
     components:{
@@ -30,7 +36,10 @@ export default {
         SiteProgram,
         SiteMap,
         SiteLocation,
-        SiteNews
+        SiteNews,
+        SiteTickets,
+        SiteVimeo,
+        SiteSponsor
     }
 }
 </script>

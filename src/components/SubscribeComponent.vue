@@ -27,7 +27,7 @@
                 </div>
                 </div>
             </div>
-            <h2 class="mt-5 mb-5">SUBSCRIBE FOR UPDATES</h2>
+            <h3 class="mt-5 mb-5">SUBSCRIBE FOR UPDATES</h3>
             
             <form  class="mb-3 d-flex justify-content-center">
                 <input type="email" class="form-control w-50" id="exampleInputEmail1" placeholder="Please fill your email" aria-describedby="emailHelp">
@@ -56,9 +56,9 @@ export default {
     background-size: cover;
     background-position: center;
 }.container{
-    h2{
+    h3{
         color: black;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 600;
     }
     .color_button{

@@ -3,7 +3,7 @@
   <div class="container bg-container py-5">
       <div class="row row-cols-2 py-5 d-flex">
           <div class="col">
-             <h2>SPEAKERS</h2> 
+             <h3>SPEAKERS</h3> 
           </div>
           <div class="col">
               <div class="arrow d-flex justify-content-end">
@@ -19,28 +19,28 @@
       <div class="row row-cols-4 py-5 text-center">
           <div class="col">
               <img src="@/assets/img/speaker-6.jpg" alt="">
-              <div class="speaker mt-3">
+              <div class="speaker mt-4">
                     <div>PATRICK SPENCER</div>
                     <p>S&P Analyzer</p>
               </div>
           </div>
           <div class="col">
               <img src="@/assets/img/speaker-5.jpg" alt="">
-              <div class="speaker mt-3">
+              <div class="speaker mt-4">
                     <div>JANET JONES</div>
                     <p>Newyorks Post's GM</p>
               </div>
           </div>
           <div class="col">
               <img src="@/assets/img/speaker-4.jpg" alt="">
-              <div class="speaker mt-3">
+              <div class="speaker mt-4">
                     <div>MICHAEL DOVER</div>
                     <p>Starbuck's CEO</p>
               </div>
           </div>
           <div class="col">
               <img src="@/assets/img/speaker-3.jpg" alt="">
-              <div class="speaker mt-3">
+              <div class="speaker mt-4">
                     <div>ANGELINA HOLY</div>
                     <p>Maxii's Manager</p>
               </div>
@@ -68,9 +68,9 @@ export default {
     color: white;
     border-radius: 5px;
 }
-h2{
+h3{
     font-weight: 600;
-    font-size: 45px;
+    font-size: 36px;
 }
 img{
     width: 300px;
@@ -79,9 +79,12 @@ img{
 .speaker{
     div{
         font-weight: 600;
+        font-size: 15px;
     }
     p{
         color: $gray;
+        font-size: 13px;
+        margin-top: 10px;
     }
 }
 </style>

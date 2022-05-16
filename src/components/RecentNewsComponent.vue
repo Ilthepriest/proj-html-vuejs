@@ -2,7 +2,7 @@
   <div class="container py-5">
     <div class="row row-cols-2">
       <div class="col">
-        <h4>RECENT NEWS</h4>
+        <h3>RECENT NEWS</h3>
       </div>
       <div class="col text-end">
         <i class="italic">Read All News</i>
@@ -76,14 +76,27 @@ export default {
     width: 300px;
   }
 }
-h4,h6{
+h3{
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+h3,h6{
     font-weight: 600;
+}
+h6{
+  font-size: 18px;
 }
 .italic{
     color: $scarlet;
 }
 p{
     color: $gray;
-    font-size: 12px;
+    font-size: 13px;
+}
+i{
+  font-size: 15px;
+}
+.carD p:first-child{
+  font-size: 14px;
 }
 </style>
