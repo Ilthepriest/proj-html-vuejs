@@ -8,13 +8,13 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 /* import specific icons 👇 QUI AGGIUNGI LE ICONE che vuoi usare in camelCase */
 import { faMinus, faMagnifyingGlass, faTrophy, faBoltLightning, faQuestion, faAngleLeft, faAngleRight,  faClock, faLocationArrow, faUser, faPhone, faEnvelope} from '@fortawesome/free-solid-svg-icons'
 // import {} from '@fortawesome/free-regular-svg-icons'
-import {faFacebookSquare, faTwitter, faLinkedin, faGooglePlusSquare, faPinterestSquare, faFlickr } from '@fortawesome/free-brands-svg-icons'
+import {faFacebookSquare, faTwitter, faLinkedin, faGooglePlusSquare, faPinterestSquare, faFlickr,faLinkedinIn, faFacebookF } from '@fortawesome/free-brands-svg-icons'
 
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* add icons to the library 👇 QUI AGGIUNGI IL NOME DELL'ICONA in camelCase*/
-library.add( faMinus, faMagnifyingGlass, faTrophy, faBoltLightning, faQuestion, faAngleLeft, faAngleRight, faClock, faLocationArrow, faUser, faPhone, faEnvelope, faFacebookSquare, faTwitter, faLinkedin, faGooglePlusSquare, faPinterestSquare, faFlickr ) 
+library.add( faMinus, faMagnifyingGlass, faTrophy, faBoltLightning, faQuestion, faAngleLeft, faAngleRight, faClock, faLocationArrow, faUser, faPhone, faEnvelope, faFacebookSquare, faTwitter, faLinkedin, faGooglePlusSquare, faPinterestSquare, faFlickr, faLinkedinIn, faFacebookF ) 
 
 
 /* add font awesome icon component */

@@ -4,25 +4,25 @@
             <div class="row row-cols-4">
                 <div class="col">
                     <div class="square_opacity-1 d-flex flex-column justify-content-center">
-                        <div class="font_size">3339</div>
+                        <div class="font_size">{{giorni}}</div>
                         <p>DAYS</p>
                     </div>
                 </div>
                 <div class="col">
                     <div class="square_opacity-2 d-flex flex-column justify-content-center">
-                        <div class="font_size">18</div>
+                        <div class="font_size">{{ore}}</div>
                         <p>HOURS</p>
                 </div>
                 </div>
                 <div class="col">
                     <div class="square_opacity-3 d-flex flex-column justify-content-center">
-                        <div class="font_size">28</div>
+                        <div class="font_size">{{minuti}}</div>
                         <p>MINS</p>
                 </div>
                 </div>
                 <div class="col">
                         <div class="square_opacity-4 d-flex flex-column justify-content-center">
-                        <div class="font_size">17</div>
+                        <div class="font_size">{{secondi}}</div>
                         <p>SECS</p>
                 </div>
                 </div>
@@ -42,9 +42,40 @@
 <script>
 export default {
     name: 'SiteJumbo',   
-    components: {
-        
-  }
+    components: {  
+  },
+  data(){
+      return{
+        minuti: 28,
+        secondi: 17,
+        ore: 18,
+        giorni: 3339
+      }
+  },
+  methods: {
+        countDownTimer() {
+            setTimeout(() => {
+                this.secondi -= 1
+                this.countDownTimer()
+            }, 1000)
+            if(this.secondi == -1){
+                this.minuti -= 1
+                this.secondi = 59
+                if(this.minuti == -1){
+                    this.ore -= 1
+                    this.minuti = 59
+                    if(this.ore == -1){
+                        this.giorni -= 1
+                        this.ore = 24
+                    }
+                }
+            }
+
+        }
+    },
+    created() {
+        this.countDownTimer()
+    }
 }
 </script>
 

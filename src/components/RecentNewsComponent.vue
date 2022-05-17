@@ -68,6 +68,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+img:hover{
+  filter: brightness(0.5);
+}
 .container {
   img {
     width: 400px;

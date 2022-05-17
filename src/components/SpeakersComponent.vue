@@ -18,28 +18,56 @@
       </div>
       <div class="row row-cols-4 py-5 text-center">
           <div class="col">
-              <img src="@/assets/img/speaker-6.jpg" alt="">
+               <div class="orange position-relative">
+                  <div class="icone">
+                    <font-awesome-icon class="icon" icon="fa-brands fa-twitter" />
+                    <font-awesome-icon class="icon" icon="fa-brands fa-facebook-f" />
+                    <font-awesome-icon class="icon" icon="fa-brands fa-linkedin-in" />
+                  </div>
+                  <img src="@/assets/img/speaker-6.jpg" alt="">
+                </div>
               <div class="speaker mt-4">
                     <div>PATRICK SPENCER</div>
                     <p>S&P Analyzer</p>
               </div>
           </div>
           <div class="col">
-              <img src="@/assets/img/speaker-5.jpg" alt="">
+              <div class="orange position-relative">
+                  <div class="icone">
+                    <font-awesome-icon class="icon" icon="fa-brands fa-twitter" />
+                    <font-awesome-icon class="icon" icon="fa-brands fa-facebook-f" />
+                    <font-awesome-icon class="icon" icon="fa-brands fa-linkedin-in" />
+                  </div>
+                  <img src="@/assets/img/speaker-5.jpg" alt="">
+                </div>
               <div class="speaker mt-4">
                     <div>JANET JONES</div>
                     <p>Newyorks Post's GM</p>
               </div>
           </div>
           <div class="col">
-              <img src="@/assets/img/speaker-4.jpg" alt="">
+              <div class="orange position-relative">
+                  <div class="icone">
+                    <font-awesome-icon class="icon" icon="fa-brands fa-twitter" />
+                    <font-awesome-icon class="icon" icon="fa-brands fa-facebook-f" />
+                    <font-awesome-icon class="icon" icon="fa-brands fa-linkedin-in" />
+                  </div>
+                  <img src="@/assets/img/speaker-4.jpg" alt="">
+                  </div>
               <div class="speaker mt-4">
                     <div>MICHAEL DOVER</div>
                     <p>Starbuck's CEO</p>
               </div>
           </div>
           <div class="col">
-              <img src="@/assets/img/speaker-3.jpg" alt="">
+              <div class="orange position-relative">
+                  <div class="icone">
+                    <font-awesome-icon class="icon" icon="fa-brands fa-twitter" />
+                    <font-awesome-icon class="icon" icon="fa-brands fa-facebook-f" />
+                    <font-awesome-icon class="icon" icon="fa-brands fa-linkedin-in" />
+                  </div>
+                  <img src="@/assets/img/speaker-3.jpg" alt="">
+                  </div>
               <div class="speaker mt-4">
                     <div>ANGELINA HOLY</div>
                     <p>Maxii's Manager</p>
@@ -58,6 +86,32 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.icone .icon{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.icone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    visibility: hidden;
+}
+
+.orange{
+    background-color: rgba(242, 56, 26);
+    width: 300px;
+    border-radius: 10px;
+}
+[class*= "orange"]:hover .icone{
+    visibility: visible;
+}
+img:hover {
+    opacity: 0.2;
+}
+
 .bg-container{
     background-color: #F3F3F3;
 }
